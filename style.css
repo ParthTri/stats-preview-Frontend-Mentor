@@ -4,5 +4,28 @@
     box-sizing: border-box;
 }
 
+.card {
+    width: 100%;
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "info image"
+			 "stats image";
+}
+
+#hero {
+    grid-area: image;
+}
+
+.info {
+    grid-area: info;
+}
+
+.stats {
+    grid-area: stats;
+    display: flex;
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
