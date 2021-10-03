@@ -12,13 +12,26 @@
     color: white;
 }
 
+body {
+    padding: 10% 10%;
+    background-color: hsl(233, 47%, 7%);
+}
+
 .card {
-    width: 100%;
+    width: auto;
+    height: auto;
     background-color: hsl(244, 38%, 16%);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "info image"
-			 "stats image";
+    grid-template-columns: auto auto;
+    grid-template-areas: "content image";
+}
+
+.content {
+    padding: 10%;
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #hero {
