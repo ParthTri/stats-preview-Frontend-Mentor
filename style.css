@@ -35,8 +35,8 @@ body {
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
+    max-width: 450px;
+    max-width: 450px;
     grid-area: image;
     overflow: hidden;
     background: hsl(277, 64%, 61%);
