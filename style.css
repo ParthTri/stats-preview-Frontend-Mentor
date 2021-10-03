@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 :root {
     font-size: 15px;
 }
@@ -6,6 +8,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Inter, "Lexend Deca";
+    font-color: white;
 }
 
 .card {
