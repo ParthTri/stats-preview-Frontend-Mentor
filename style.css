@@ -26,8 +26,16 @@ body {
     grid-template-areas: "content image";
 }
 
+.overlay {
+    grid-area: image;
+    overflow: hidden;
+    background: hsl(277, 64%, 61%);
+    opacity: 0.5;
+}
+
 #hero {
     grid-area: image;
+    filter: contrast(1.3);
 }
 
 .content {
