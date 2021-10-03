@@ -26,20 +26,37 @@ body {
     grid-template-areas: "content image";
 }
 
+#hero {
+    grid-area: image;
+}
+
 .content {
-    padding: 10%;
+    padding: 10% 25% 10% 15%;
     grid-area: content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#hero {
-    grid-area: image;
+.info {
+    height: 50%;
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.info {
-    grid-area: info;
+#tagline {
+    font-size: 2.1rem;
+}
+
+#emphasis {
+    color: hsl(277, 64%, 61%);
+}
+
+.subtitle {
+    color: hsla(0, 0%, 100%, 0.75); 
+    line-height: 1.6rem;
 }
 
 .stats {
