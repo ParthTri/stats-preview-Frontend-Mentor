@@ -27,6 +27,7 @@ body {
 
 .card {
     max-width: 70vw;
+    min-width: 880px;
     border-radius: 8px;
     background-color: hsl(244, 38%, 16%);
     display: grid;
@@ -103,7 +104,8 @@ body {
 			     "content";
 	height: auto;
 	text-align: center;
-
+	min-width: 0;
+	width: 450px;
     }
 
     .content {
